@@ -1,0 +1,34 @@
+
+body {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+#format{
+  font: blue;
+  
+}
+
+
+.wrapper{
+  margin:0 auto;
+  width: 600px;
+}
+
+.btn, .btn-lg, .btn-primary, .btn-block{
+  margin-top: 10px;
+}
+.wrapper .btn-primary{
+    background-color: #000;
+    border-color:#eee;
+}
+.wrapper .btn-primary:hover{
+  border-color:#000;
+  background-color:#3f3f3f;
+}
+
+.wrapper .btn-primary:active{
+  border-color:#fff;
+  background-color:#d1d1d1;
+}
